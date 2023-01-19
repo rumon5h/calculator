@@ -20,4 +20,12 @@ equation_label = StringVar()
 lable = Label(window, textvariable=equation_label, font=('consolas', 20), bg='white', width=24, height=2)
 lable.pack()
 
+
+frame = Frame(window)
+frame.pack()
+
+button1 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: button_press(1))
+
+button1.grid(row=0, column=0)
+
 window.mainloop()
