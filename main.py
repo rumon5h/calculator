@@ -28,4 +28,9 @@ button1 = Button(frame, text=1, height=4, width=9, font=35, command= lambda: but
 
 button1.grid(row=0, column=0)
 
+
+button2 = Button(frame, text=2, height=4, width=9, font=35, command= lambda: button_press(2))
+
+button2.grid(row=0, column=1)
+
 window.mainloop()
