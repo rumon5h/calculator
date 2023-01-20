@@ -79,4 +79,8 @@ divide = Button(frame, text='/', height=4, width=9, font=35, command= lambda: bu
 divide.grid(row=3, column=3)
 
 
+equal = Button(frame, text='=', height=4, width=9, font=35, command= equals)
+equal.grid(row=3, column=2)
+
+
 window.mainloop()
