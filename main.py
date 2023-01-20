@@ -83,4 +83,9 @@ equal = Button(frame, text='=', height=4, width=9, font=35, command= equals)
 equal.grid(row=3, column=2)
 
 
+decimal = Button(frame, text='.', height=4, width=9, font=35, command= lambda: button_press('.'))
+decimal.grid(row=3, column=1)
+
+
+
 window.mainloop()
