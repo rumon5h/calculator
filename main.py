@@ -43,4 +43,8 @@ button4.grid(row=1, column=0)
 button5 = Button(frame, text=5, height=4, width=9, font=35, command= lambda: button_press(5))
 button5.grid(row=1, column=1)
 
+
+button6 = Button(frame, text=6, height=4, width=9, font=35, command= lambda: button_press(6))
+button6.grid(row=1, column=2)
+
 window.mainloop()
